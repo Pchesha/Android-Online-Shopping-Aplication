@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.watchshop"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.watchshop.LaunchingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.watchshop.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.SignUpActivity"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.Home1Activity"
+            android:label="@string/title_activity_home1" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.CartActivity"
+            android:label="@string/title_activity_cart" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.About_usActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.Frag1Activity"
+            android:label="@string/title_activity_frag1" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.Fragment1Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.Fragment2Activity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.MaleActivity"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.FemaleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.KidsActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.WDescrpActivity"
+            android:label="@string/title_activity_wdescrp" >
+        </activity>
+        <activity
+            android:name="com.example.watchshop.ImagePreviewActivity"
+            android:label="@string/title_activity_image_preview" >
+        </activity>
+    </application>
+
+</manifest>

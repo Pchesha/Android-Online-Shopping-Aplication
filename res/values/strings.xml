@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Watchshop</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home1">Home1Activity</string>
+    <string name="title_activity_log_out">Log_outActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_about_us">About_usActivity</string>
+    <string name="title_activity_frag1">Frag1Activity</string>
+
+    <string-array name="SORT_BY">
+        <item>BRAND</item>
+        <item>COLOR</item>
+        <item>PRICE</item>
+    </string-array>
+    <string-array name="SORT_BY1">
+        <item>CATEGORY</item>
+        <item>COLOR</item>
+        <item>PRICE</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">close navigation drawer</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_wdescrp">WDescrpActivity</string>
+    <string name="title_activity_image_preview">ImagePreviewActivity</string>
+
+</resources>

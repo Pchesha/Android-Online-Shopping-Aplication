@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".About_usActivity"
+     android:background="@drawable/b4" >
+      <ScrollView 
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="WATCHSHOP is the best place to browse and purchase smart and practical watches on the go. With a wide range of watches of great brands, something in the Watch Shop is bound to catch your attention!
+
+
+
+Watchshop shows you a world of watches from your fingertips - browse and buy within seconds... don’t let time slip you by.
+
+
+
+We make it easy and effortless to shop for new watches. Whether you are looking for something that looks great, or just something that serves a practical purpose: the  Watch Shop has it all.
+
+
+
+If you are looking for a new watch, look no further than the Watch Shop - just download the app and get browsing. Once you have found one that you like, you can purchase it with a tap - it’s never been this easy to search for new watches on the go.
+ 
+
+
+Pick a category to browse in - then select a watch and read more about it. We feature beautiful watches well-known and trusted manufacturers - industry-leading in brilliance and excellence.
+
+
+Take time into your own hands... literally - with Watchshop
+
+- Browse various beautiful watches from your fingertips.
+
+- The best place to find a great new watch.
+
+- Pick a category to browse in."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+  </ScrollView>
+</RelativeLayout>
+
